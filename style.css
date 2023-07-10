@@ -1,0 +1,58 @@
+/* common section start */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 38px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+/* common section end */
+
+/* header section start */
+header {
+    background-color: #e554731a;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 0px 150px 0;
+    padding-top: 50px;
+}
+.flower-contents{
+    margin-top: 0;
+    /* margin-bottom: 50px; */
+}
+.flower-contents-title {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flower-contents-description {
+    color: #27272799;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.flower-btn{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/* header section end */
