@@ -64,14 +64,53 @@ header {
 /* header section end */
 
 /* featured flowers section start --> */
-.featured-flowers-items{
-
+.featured-flowers-items {
+    text-align: center;
 }
-.featured-flowers-title{
 
+.featured-flowers-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
-.featured-flowers-description{
 
+.featured-flowers-description {
+    color: #27272799;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 380px;
+}
+
+.featured-flowers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.featured-flowers-container img {
+    display: block;
+    width: 50%;
+}
+
+.featured-flowers-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    padding: 0 0px 0 125px;
+    /* background-size: auto; */
+}
+
+.featured-flowers-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: #0597a026;
+    padding: 32px 0px 28px 125px;
+}
+
+.featured-flowers-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: #477d1126;
+    padding: 0 0px 0 125px;
 }
 
 /* featured flowers section end --> */
